@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: cicdk8s-main
-          image: springboothate/secondchance
+          image: springboothate/cicdk8s:80c19ea4b8c65484d4246082e1201f6d587feb8c
           ports:
             - containerPort: 8080
           volumeMounts:
