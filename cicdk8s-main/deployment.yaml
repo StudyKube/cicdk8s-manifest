@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: cicdk8s-main
-          image: springboothate/cicdk8s:80c19ea4b8c65484d4246082e1201f6d587feb8c
+          image: springboothate/cicdk8s:699687c1d8e19a241290b945c51d661522ed99dd
           ports:
             - containerPort: 8080
           volumeMounts:
